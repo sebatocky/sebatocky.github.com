@@ -55,7 +55,7 @@ hr {
     height: 2px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
+    margin: 2em 0;
     padding: 0;
 }
 
@@ -218,13 +218,18 @@ li {
     float: left;
     background-color: #ffffff;
     border-radius: 15px;
+    margin-bottom: 5.5em;
 }
 
 #text {
     display: inline;
     text-align: justify;
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: fnt_kelson;
+}
+
+#text p {
+    margin-bottom: 1.3em;
 }
 
 img {
@@ -251,7 +256,7 @@ footer {
 
     header {
         font-size: 1.2em;
-        height: 14em;
+        height: 16em;
     }
 
     .cap h1 {
@@ -276,6 +281,7 @@ footer {
     #text {
         text-align: left;
         font-size: 1em;
+        line-height: 1.3em;
     }
 
 }
