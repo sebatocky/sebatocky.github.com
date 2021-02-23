@@ -2,25 +2,13 @@
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 @font-face {
     font-family: fnt_marta;
     font-weight: normal;
     font-style: normal;
     src: url('../fonts/Marta_Regular.otf')
-}
-
-@font-face {
-    font-family: fnt_kelson;
-    font-weight: normal;
-    font-style: normal;
-    src: url('../fonts/Kelson Sans Regular.otf')
-}
-
-@font-face {
-    font-family: fnt_kelson_bold;
-    font-weight: bold;
-    font-style: normal;
-    src: url('../fonts/Kelson Sans Bold.otf')
 }
 
 * {
@@ -206,7 +194,8 @@ li {
 #main-block h2 {
     font-size: 2.5em;
     padding-bottom: 2.5%;
-    font-family: fnt_kelson_bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 #image {
@@ -225,7 +214,8 @@ li {
     display: inline;
     text-align: justify;
     font-size: 1.2em;
-    font-family: fnt_kelson;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 #text p {
